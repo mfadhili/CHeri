@@ -1,0 +1,16 @@
+<header>
+  <nav>
+    <div class="logo">
+      <a href="#">Cheri</a>
+    </div>
+
+    <div class="top-nav">
+      <div class="user">
+        <a class="user-name" *ngIf="!userData">Welcome {{homeName | lowercase}}!</a>
+      </div>
+      <div class="log-out-button">
+        <a class="log-out" (click)="logOut()" routerLinkActive="active">LogOut</a>
+      </div>
+    </div>
+  </nav>
+</header>
