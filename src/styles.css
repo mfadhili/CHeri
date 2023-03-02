@@ -9,12 +9,12 @@
 }
 /* Colors from palette https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
 :root {
-  --clr-primary: #2A9D8F;
-  --clr-primary-light: #9be7d7;
-  --clr-dark: #264653;
+  --clr-primary: #219EBC;
+  --clr-primary-light: #8ECAE6;
+  --clr-dark: #023047;
   --clr-accent-light: #E9C46A;
-  --clr-accent: #F4A261;
-  --clr-accent-dark: #E76F51;
+  --clr-accent: #FFB703;
+  --clr-accent-dark: #FB8500;
 
   /*  Font Weights*/
   --fw-normal: 400;
