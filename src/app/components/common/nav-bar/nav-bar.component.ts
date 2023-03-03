@@ -7,6 +7,8 @@ import {Router} from "@angular/router";
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+
+  /** Data variables*/
   homeName!: string;
   private user: any;
   userData = false;
@@ -16,10 +18,13 @@ export class NavBarComponent {
   }
 
   ngOnInit(): void {
+    /** Loads Home name and User's name from session storage*/
     this.homeName = "Furaha Center" || sessionStorage.getItem('homeName');
     this.user = JSON.parse(sessionStorage.getItem('user') || '{}')
   }
 
+
+  /** Log out function. Cleans session storage */
   logOut(): void {
     sessionStorage.removeItem('userRole');
     sessionStorage.removeItem('user');
