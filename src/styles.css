@@ -31,3 +31,6 @@ body {
   background: url("./assets/images/backgrounds/sports.png");
   background-size: 200px 200px;
 }
+a {
+  text-decoration: none;
+}

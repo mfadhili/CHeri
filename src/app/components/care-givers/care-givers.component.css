@@ -1,0 +1,17 @@
+/** Styles for side nav bar*/
+
+/** Mobile View*/
+  /** Positioning*/
+.horizon {
+  display: flex;
+  height: 100vh; /* pushes footer to end of view height */
+  flex-direction: column;
+}
+
+.side-bar {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
