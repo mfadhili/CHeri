@@ -17,8 +17,8 @@ export class NavBarComponent {
   constructor( public router: Router) {
   }
 
+  /** Load Home name and User's name from session storage*/
   ngOnInit(): void {
-    /** Loads Home name and User's name from session storage*/
     this.homeName = "Furaha Center" || sessionStorage.getItem('homeName');
     this.user = JSON.parse(sessionStorage.getItem('user') || '{}')
   }
