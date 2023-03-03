@@ -2,7 +2,13 @@
 <section class="horizon">
   <!-- Side Bar-->
   <div class="side-bar">
-
+    <aside class="side-container">
+      <ul>
+        <li *ngFor="let MenuItem of MenuItems">
+          <a href="{{MenuItem.url}}">{{MenuItem.tag}}</a>
+        </li>
+      </ul>
+    </aside>
   </div>
   <!--  Main Area-->
   <div class="main-area">

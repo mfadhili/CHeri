@@ -13,7 +13,7 @@ export class NavBarComponent {
   private user: any;
   userData = false;
 
-  /** TODO : Add apiService to constructor*/
+  /** TODO : to add apiService to constructor*/
   constructor( public router: Router) {
   }
 
