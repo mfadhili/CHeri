@@ -15,3 +15,12 @@
   justify-content: center;
 }
 
+.side-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggle-icon {
+  padding-left: 10px;
+}
